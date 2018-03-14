@@ -1,0 +1,51 @@
+body, p, h3, ul, li, dl, dd, dt, a {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: violet; }
+
+.header {
+  background: #f2f2f2;
+  height: 26px;
+  width: 100%;
+  font-size: 12px; }
+  .header .midHeader {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 26px; }
+  .header .headerLeft {
+    color: #999999;
+    float: left;
+    width: 220px;
+    overflow: hidden; }
+    .header .headerLeft p {
+      float: left;
+      margin-right: 14px; }
+    .header .headerLeft a {
+      color: #999999;
+      text-decoration: none; }
+    .header .headerLeft a:hover {
+      color: #cc0000;
+      text-decoration: underline; }
+  .header .headerRight {
+    float: right;
+    color: #999999; }
+    .header .headerRight ul li {
+      list-style: none;
+      float: left;
+      padding: 0 5px; }
+      .header .headerRight ul li a {
+        color: #999999;
+        text-decoration: none; }
+    .header .headerRight ul .headeList {
+      position: relative; }
+      .header .headerRight ul .headeList i {
+        font-size: 8px; }
+      .header .headerRight ul .headeList ul li {
+        float: none;
+        background: white;
+        padding: 0 5px; }
+
+/*# sourceMappingURL=header.css.map */
